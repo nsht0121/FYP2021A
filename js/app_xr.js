@@ -1,9 +1,9 @@
+import * as THREE from '../build/three.module.js';
 import { OrbitControls } from "./modules/OrbitControls.js";
 import { GLTFLoader } from "./modules/GLTFLoader.js";
 import { Game } from "./game3D/game.js";
 import { Data } from "./game3D/data.js";
 import Stats from "./modules/stats.js";
-import { PlaneBufferGeometry } from "../build/three.module.js";
 
 const isMobile = ( /Android|webOS|iPhone|iPad|iPod/i.test( navigator.userAgent ) );
 const loadingScreen = document.getElementById( "loadingScreen" );
