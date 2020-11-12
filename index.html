@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Web AR Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+      <p>Loading...</p>
+
+      <div class="progress">
+        <div id="progressbar"></div>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="container">
+      <!-- 1. Message Box -->
+      <div id="messageBox"></div>
+
+      <!-- 2. Level, Health and Stats Displayer -->
+      <div id="topBar">
+        <span id="level"></span>
+        <span id="health"></span>
+        <div id="stats"></div>
+      </div>
+
+      <div id="bottomBar">
+        <!-- 3. Inventory -->
+        <div class="horizontalMenu">
+          <span>Items:</span>
+          <div id="inventory"></div>
+        </div>
+    
+        <!-- 4. Options -->
+        <div class="horizontalMenu">
+          <span>Options:</span>
+          <div id="options">
+            <button id="btnTrigger">Start</button>
+            <button onclick="app.game.resetLevel();">Reset</button>
+            <button id="btnResetOrbit" onclick="app.orbitControls.reset();">Reset Camera</button>
+            <button id="btnResetXRscene" class="hidden" onclick="app.resetXRscene();">Reset Scene</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Renderer -->
+    <div id="renderContainer">
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="./build/three.js"></script>
+    <script src="./js/app_xr.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+Block Placing (Raycast, Mouse event)
+https://github.com/mrdoob/three.js/blob/master/examples/webgl_interactive_voxelpainter.html
+
+FPS
+https://github.com/mrdoob/stats.js/
+
+OrbitControls
+https://github.com/mrdoob/three.js/blob/master/examples/jsm/controls/OrbitControls.js
+
+Three.js Basic
+https://threejs.org/
+https://threejsfundamentals.org/
+
+Loadbar
+https://threejsfundamentals.org/threejs/lessons/threejs-game.html
+
+UI idea
+https://www.behance.net/gallery/45271643/Puzzle-game-UI
+https://www.behance.net/gallery/96154545/Game-UI-City-Build-Puzzle?tracking_source=search_projects_recommended%7CPuzzle%20game%20UI
+
+Element - Web APIs | MDN
+https://developer.mozilla.org/en-US/docs/Web/API/Element
+
+// WebXR
+https://immersive-web.github.io/
+
+// XR button + request
+https://developer.mozilla.org/en-US/docs/Web/API/XRSystem/requestSession
+https://immersive-web.github.io/webxr-samples/immersive-ar-session.html
+https://github.com/mrdoob/three.js/blob/dev/examples/jsm/webxr/ARButton.js
+
+// AR app example
+https://www.creativebloq.com/features/webar
+https://codelabs.developers.google.com/codelabs/ar-with-webxr
+https://github.com/mrdoob/three.js/blob/master/examples/webxr_ar_hittest.html
+
+// WebXR: AR dom-overlay
+https://github.com/immersive-web/dom-overlays/blob/master/explainer.md
+
+
+// gltf model dark (solved)
+https://discourse.threejs.org/t/gltfexported-model-is-way-darker/6686
+https://stackoverflow.com/questions/60302943/update-texture-with-three-js
+code in app_xr.js: map.encoding = THREE.sRGBEncoding;
+
+// Plane both side mapping
+https://stackoverflow.com/questions/11709760/how-can-i-put-two-different-textures-on-the-front-and-back-of-a-plane
+// Draw a triangle plane
+https://stackoverflow.com/questions/29839777/how-to-use-three-triangle-in-three-js
+
+// Raycast in AR mode
+https://threejsfundamentals.org/threejs/lessons/threejs-webvr-look-to-select.html
