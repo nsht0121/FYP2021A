@@ -1,6 +1,7 @@
 # FYP2021A
 ## About 
 This is a simple web AR puzzle game. It was built using WebXR Device API and Three.js library.
+[Demo Link](https://nsht0121.github.io/FYP2021A/)
 
 ## Gameplay
 The player needs to help the robot to arrive at the destination tile (red circle) using items he/she had.
